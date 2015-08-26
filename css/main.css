@@ -74,22 +74,22 @@ hr {
 
 .jumbotron {
 	background-image: url(../img/DogGrooming3.jpg);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.jumbotron.index-jumbo {
+.index-jumbo {
 background-image: url(../img/DogGrooming3.jpg);
 }
-.jumbotron.specialist-jumbo {
-background-image: url(../img/shitzu.jpg);
+.specialist-jumbo {
+  background-image: url(../img/shitzu.jpg);
+  color: white;
 }
-.jumbotron.specialist-jumbo p {
+.specialist-jumbo .text_define {
 	text-shadow: 1px 1px 0 #000, -1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000;
-	color: white;
 }
-.jumbotron.index-jumbo p {
+.index-jumbo .text_define {
 	text-shadow: 1px 1px 0 #E0DBB0;
 }
 .btn-primary,
